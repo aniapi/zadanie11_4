@@ -1,0 +1,28 @@
+
+#carousel {
+    margin: auto;
+	width: 400px;
+	height: 300px;
+	overflow: hidden;
+	border: 15px solid black;
+}
+
+.gallery {
+	width: 2000px;
+	margin-left: 400px;
+}
+
+.gallery li {
+	height: 300px;
+	width: 400px;
+	list-style: none;
+	float: left;
+}
+
+.dots li {
+	height: 8px;
+	width: 8px;
+	margin: 3px;
+	background-color: red;
+	border-radius: 50%;
+}
